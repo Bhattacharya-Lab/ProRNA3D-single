@@ -12,7 +12,7 @@ Codebase for our protein-RNA complex structure prediction method, ProRNA3D-singl
 
 1.) We recommend conda virtual environment to install dependencies for ProRNA3D-single. The following command will create a virtual environment named 'ProRNA3D-single'
 
-`conda env create -f ProRNA3D-single.yml`
+`conda env create -f ProRNA3D-single_environment.yml`
 
 2.) Then activate the virtual environment 
 
