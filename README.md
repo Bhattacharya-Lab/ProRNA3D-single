@@ -23,3 +23,23 @@ Codebase for our protein-RNA complex structure prediction method, ProRNA3D-singl
 That's it! ProRNA3D-single is ready to be used.
 
 ## Usage
+
+1.) Place the protein and RNA monomers (pdbs) inside `inputs/` 
+
+2.) Place the [esm2](https://github.com/facebookresearch/esm) embeddings inside `inputs/`. See an example here `inputs/7ZLQB.rep_1280.npy` 
+
+3.) Place the [RNA-FM](https://github.com/ml4bio/RNA-FM) embeddings inside `inputs/`. See an example here `inputs/7ZLQC_RNA.npy`
+
+4.) Put the list of targets in the file `inputs.list` inside `inputs/`.
+
+5.) Run
+
+```
+python run_predictions.py
+```
+
+This script will run inference and generate inter-protein-RNA interactions inside `out_inter_rr/`. Then it will transform the predictions into folded 3D protein-RNA complex structures inside `predictions/`
+
+## Datasets
+- The lists of train, validation, and test sets are available inside 'Datasets/`
+- All the data are curated from [PDB](https://www.rcsb.org).
