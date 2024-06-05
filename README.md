@@ -41,5 +41,5 @@ python run_predictions.py
 This script will run inference and generate inter-protein-RNA interactions inside `out_inter_rr/`. Then it will transform the predictions into folded 3D protein-RNA complex structures inside `predictions/`
 
 ## Datasets
-- The lists of train, validation, and test sets are available inside 'Datasets/`
+- The train, validation, and test set lists are available inside `Datasets/`.
 - All the data are curated from [PDB](https://www.rcsb.org).
