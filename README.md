@@ -18,7 +18,13 @@ Codebase for our protein-RNA complex structure prediction method, ProRNA3D-singl
 
 `conda activate ProRNA3D-single`
 
-3.) Download the trained model from [here](https://zenodo.org/records/11477127), extract and place inside `ProRNA3D_model/`
+3.) The folding requires [PyRosetta](https://www.pyrosetta.org/), which can be installed following [these instuctions](https://www.pyrosetta.org/downloads#h.iwt5ktel05jc).
+
+4.) Download the trained model from [here](https://zenodo.org/records/11477127) and place inside `ProRNA3D_model/`
+
+```
+curl --output ProRNA3D_model/model.pt "https://zenodo.org/records/11477127/files/model.pt?download=1"
+```
 
 That's it! ProRNA3D-single is ready to be used.
 
