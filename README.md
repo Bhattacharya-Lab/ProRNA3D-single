@@ -42,4 +42,4 @@ This script will run inference and generate inter-protein-RNA interactions insid
 
 ## Datasets
 - The train, validation, and test set lists are available inside `Datasets/`.
-- All the data are curated from [PDB](https://www.rcsb.org).
+- Data curated from [PDB](https://www.rcsb.org).
