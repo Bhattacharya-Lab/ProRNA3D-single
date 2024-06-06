@@ -18,7 +18,7 @@ Codebase for our protein-RNA complex structure prediction method, ProRNA3D-singl
 
 `conda activate ProRNA3D-single`
 
-3.) The folding requires [PyRosetta](https://www.pyrosetta.org/), which can be installed following [these instuctions](https://www.pyrosetta.org/downloads#h.iwt5ktel05jc).
+3.) The folding script requires [PyRosetta](https://www.pyrosetta.org/), which can be installed following [these instuctions](https://www.pyrosetta.org/downloads#h.iwt5ktel05jc).
 
 4.) Download the trained model from [here](https://zenodo.org/records/11477127) and place inside `ProRNA3D_model/`
 
@@ -34,7 +34,7 @@ That's it! ProRNA3D-single is ready to be used.
 
 2.) Place the [esm2](https://github.com/facebookresearch/esm) embeddings inside `inputs/` (see example `inputs/7ZLQB.rep_1280.npy`), and place the [RNA-FM](https://github.com/ml4bio/RNA-FM) embeddings inside `inputs/` (see example here `inputs/7ZLQC_RNA.npy`).
 
-3.) Place the protein distance maps inside `prot_dist/` (see example `prot_dist/7ZLQB_prot.dist`), and place the RNA distance maps inside `rna_dist/` (see example `rna_dist/7ZLQC_RNA.c4p.dist`).
+3.) Place the protein (Cα-Cα) distance maps inside `prot_dist/` (see example `prot_dist/7ZLQB_prot.dist`), and place the RNA (C'<sub>4</sub>-C'<sub>4</sub>) distance maps inside `rna_dist/` (see example `rna_dist/7ZLQC_RNA.c4p.dist`).
 
 4.) Put the list of targets in the file `inputs.list` inside `inputs/`.
 
