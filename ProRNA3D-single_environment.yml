@@ -114,5 +114,4 @@ dependencies:
   - pip:
       - charset-normalizer==2.1.0
       - lie-learn==0.0.1.post1
-      - pyrosetta==2023.21+release.9b3660a
       - urllib3==1.26.11
