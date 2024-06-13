@@ -187,5 +187,5 @@ if __name__ == '__main__':
     seed = 1992 
     torch.manual_seed(seed)
     np.random.seed(seed)
-    PARS.device = torch.device('cpu')
+    PARS.device = torch.device('cpu') #cuda can be used if that is available
     main(PARS)
