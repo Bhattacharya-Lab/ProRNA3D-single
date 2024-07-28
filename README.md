@@ -2,7 +2,7 @@
 
 ## Single-sequence protein-RNA complex structure prediction by geometric triangle-aware pairing of language models
 
-by Rahmatullah Roche, Sumit Tarafder, Bernard Moussad, and Debswapna Bhattacharya
+by Rahmatullah Roche, Sumit Tarafder, and Debswapna Bhattacharya
 
 Codebase for our protein-RNA complex structure prediction method, ProRNA3D-single.
 
