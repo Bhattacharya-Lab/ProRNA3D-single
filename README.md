@@ -32,9 +32,9 @@ That's it! ProRNA3D-single is ready to be used.
 
 1.) Place the protein and RNA monomers (pdbs) inside `inputs/` 
 
-2.) Place the [esm2](https://github.com/facebookresearch/esm) embeddings inside `inputs/` (see example `inputs/7ZLQB.rep_1280.npy`), and place the [RNA-FM](https://github.com/ml4bio/RNA-FM) embeddings inside `inputs/` (see example here `inputs/7ZLQC_RNA.npy`).
+2.) Place the [ESM2](https://github.com/facebookresearch/esm) embeddings inside `inputs/` (see example `inputs/7ZLQB.rep_1280.npy`), and place the [RNA-FM](https://github.com/ml4bio/RNA-FM) embeddings inside `inputs/` (see example here `inputs/7ZLQC_RNA.npy`).
 
-3.) Place the protein (Cα-Cα) distance maps inside `prot_dist/` (see example `prot_dist/7ZLQB_prot.dist`), and place the RNA (C'<sub>4</sub>-C'<sub>4</sub>) distance maps inside `rna_dist/` (see example `rna_dist/7ZLQC_RNA.c4p.dist`).
+3.) Place the protein (C<sub>α</sub>-C<sub>α</sub>) distance maps inside `prot_dist/` (see example `prot_dist/7ZLQB_prot.dist`), and place the RNA (C'<sub>4</sub>-C'<sub>4</sub>) distance maps inside `rna_dist/` (see example `rna_dist/7ZLQC_RNA.c4p.dist`).
 
 4.) Put the list of targets in the file `inputs.list` inside `inputs/`.
 
