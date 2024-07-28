@@ -1,10 +1,10 @@
 # ProRNA3D-single
 
-## Single-sequence protein-RNA complex structure prediction by geometric triangle-aware pairing of language models
+## Single-sequence protein-RNA complex structure prediction by geometric attention-enabled pairing of biological language models
 
 by Rahmatullah Roche, Sumit Tarafder, and Debswapna Bhattacharya
 
-Codebase for our protein-RNA complex structure prediction method, ProRNA3D-single.
+Codebase for our single-sequence protein-RNA complex structure prediction method, ProRNA3D-single.
 
 ![Workflow](./workflow.png)
 
