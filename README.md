@@ -1,5 +1,3 @@
-# ProRNA3D-single
-
 ## Single-sequence protein-RNA complex structure prediction by geometric attention-enabled pairing of biological language models
 
 by Rahmatullah Roche, Sumit Tarafder, and Debswapna Bhattacharya
