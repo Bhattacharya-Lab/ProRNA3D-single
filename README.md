@@ -2,6 +2,9 @@
 
 by Rahmatullah Roche, Sumit Tarafder, and Debswapna Bhattacharya
 
+[[bioRxiv](https://www.biorxiv.org/content/10.1101/2024.07.27.605468v1)] [[pdf](https://www.biorxiv.org/content/10.1101/2024.07.27.605468v1.full.pdf)]
+
+
 Codebase for our single-sequence protein-RNA complex structure prediction method, ProRNA3D-single.
 
 ![Workflow](./workflow.png)
