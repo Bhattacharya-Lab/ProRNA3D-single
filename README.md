@@ -7,6 +7,9 @@ by Rahmatullah Roche, Sumit Tarafder, and Debswapna Bhattacharya
 
 Codebase for our single-sequence protein-RNA complex structure prediction method, ProRNA3D-single.
 
+<a href="https://doi.org/10.5281/zenodo.16791755"><img src="https://zenodo.org/badge/791348139.svg" alt="DOI"></a>
+
+
 ![Workflow](./workflow.png)
 
 ## Installation
